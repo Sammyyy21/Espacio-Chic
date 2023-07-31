@@ -1,0 +1,138 @@
+.navbar{
+    padding: 2rem;
+    background-color: #faf7f4;
+    text-align: right;
+    display: flex;
+}
+
+.navbar-collapse {
+    align-items: right;
+    justify-content: space-between;  
+    padding: 2rem;
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #615151;
+    padding: auto;
+}
+
+body{
+    background-color: bisque;
+}
+
+img{
+    width: 50%;
+
+}
+
+.crew{
+    width: 500px;
+    border-radius: 30px;
+    padding: 2rem;
+    align-items: center;
+}
+
+.space {
+    width: 450px;
+    border-radius: 30px;
+    padding: 2rem;
+}
+
+.hero{
+    background-color: #f0bbc2;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal{
+    padding: 10rem;
+}
+
+.hero-principal h2{
+    font-size: 2rem;
+    margin: auto;
+    color: black;
+}
+
+.main-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 100px;
+    text-shadow: 30cm;
+    padding: auto;
+    text-align: center;
+
+}
+
+.subtitle {
+    font-family: fantasy;
+    text-align: left;
+}
+
+.subtitle2 {
+    font-family: fantasy;
+    text-align: right;
+
+
+}
+
+.subtitle3 {
+    font-family: fantasy;
+
+}
+
+.alltext {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list {
+    font-size: 30px;
+    font-family: Amatic SC, serif;
+    color: brown;
+    text-align: left;
+
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.columna1{
+    padding: 25px;
+    margin: 0 10px;
+}
+
+.columna2{
+    padding: 25px;
+margin: 0 10px;
+}
+
+.imagenes{
+    padding: 40px 40px 80px 40px;
+}
+
+
+.carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.elemento{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    width: 500px;
+    height: 500px;
+}
+
+.elemento .container-photo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
